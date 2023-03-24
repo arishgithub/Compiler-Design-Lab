@@ -1,0 +1,17 @@
+Problem: Write a program to implement a program that takes an input
+string from the console and verifies it against a Deterministic
+Finite Automaton which is given through a separate file.
+
+
+dfa.txt file structure:
+
+n states, m inputs: n x m	// dfa format
+
+0      // Initial State
+1 2    // Set of Final State(s)
+0 1    // DFA starts from 3rd line
+-1 2   // -1 means no transition
+-1 0
+
+
+Input: 0011	Output: STRING ACCEPTED

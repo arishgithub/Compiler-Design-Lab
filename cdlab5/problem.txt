@@ -1,0 +1,20 @@
+Problem: WAP to evaluate the first and follow information of a
+CFG given through a file.
+
+
+cfg.txt file structure:
+
+S AbB	// Non-terminal -> corresponding string
+S cS	// S -> cS
+A BA
+A a
+A #	// # signifies epsilon
+B bB
+B #
+
+First(S) = {b, a, c}	Follow(S) = {$}
+First(A) = {b, #, a}	Follow(A) = {b}
+First(B) = {b, #}	Follow(B) = {$, b, a}
+First(a) = {a}
+First(b) = {b}
+First(c) = {c}

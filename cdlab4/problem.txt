@@ -1,0 +1,11 @@
+Problem: WAP to implement the conversion of a NFA to a
+corresponding DFA.
+
+
+nfa.txt file structure:
+
+0		// Initial state
+1		// Set of Final States
+0,1,2 1 -1	// NFA starts from 3rd line
+-1 2 1		// values separated from commas signify multiple
+-1 0,2 -1	// transitions

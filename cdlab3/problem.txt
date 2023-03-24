@@ -1,0 +1,15 @@
+Problem: WAP to implement a MOORE MACHINE, where the program generates
+an output corresponding to an input string given thru the console.
+
+
+moore.txt file structure:
+
+n states, m inputs: n x (m + 1)	// moore format
+
+0		// Initial State
+0 1 A		// Moore starts from 2nd line
+-1 2 B		// -1 means no transition
+-1 0 A
+
+
+Input: 00100	Output: AAAB

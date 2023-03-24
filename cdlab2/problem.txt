@@ -1,0 +1,15 @@
+Problem: WAP to implement a MEALY MACHINE, where the program generates
+an output corresponding to an input string given thru the console.
+
+
+mealy.txt file structure:
+
+n states, m inputs: n x (2m)	// mealy format
+
+0		// Initial State
+1 A 2 A		// Mealy starts from 2nd line
+-1 -1 2 B	// -1 means no transition
+-1 -1 0 A
+
+
+Input: 01100	Output: ABAA
